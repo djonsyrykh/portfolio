@@ -1,0 +1,186 @@
+@media (max-width: 1130px){
+    .header-row {
+        column-gap: 30px;
+    }
+
+    .header-img{
+        width: 300px;
+        border-radius: 30px;
+    }   
+
+    .header-title {
+            font-size: 52px;
+    }
+
+    .header-text {
+        font-size: 22px;
+    }
+
+    .portfolio-title {
+        font-size: 42px;
+    }
+
+    .contact-title{
+        font-size: 42px;
+    }
+
+    .inner-page-title {
+        font-size: 42px;
+    }
+
+}
+
+@media (max-width: 767px){
+    .header {
+        padding-top: 20px;
+        padding-bottom: 40px;
+        border-bottom-right-radius: 60px;
+       
+    }
+
+    .header-video {
+        border-bottom-right-radius: 60px;
+    }
+
+    .header-row {
+        
+        flex-direction:column;
+        align-items:flex-start;
+        column-gap: 20px;
+    }
+    .header-img{
+       max-width: 100%;
+       width: auto;
+    }
+
+    .header-title {
+        font-size: 32px;
+    }
+
+    .header-text {
+       
+        font-size: 18px;
+        
+    }
+
+             /* .btns */
+    
+        .btn, .btn-outline{
+            height: 42px;
+            padding-top: 12px;
+            padding-bottom: 14px;
+            padding-left: 15px;
+            padding-right: 15px;
+        }
+
+                /* Portfolio */
+
+
+    .portfolio {
+        padding: 40px 0;
+
+    }
+
+    .portfolio-title {
+        font-size: 28px;
+       
+        padding-bottom: 30px;
+    }
+
+    .projects{
+
+        row-gap: 30px;
+
+    }
+    .project-img {
+        border-radius: 14px;
+        margin-bottom: 20px;
+      
+    }
+
+          /* Contact */
+
+
+    .contact{
+       
+        border-top-left-radius:60px;
+        padding: 40px 0;
+    }
+
+    .contact-title{
+        font-size: 28px;
+       
+        margin-bottom: 30px;
+        
+    }  
+
+    .massangers {
+        gap: 20px;
+           
+    }  
+    .massanger {
+
+        padding:32px 20px;
+        font-size: 16px;
+        border-radius: 12px;  
+    
+    }
+
+           /* Footer */
+
+    .footer-desk{
+        font-size: 12px;
+
+    }
+
+          /* Inner Page */
+
+     .inner-page{
+            padding: 40px 0 20px;
+        }
+       
+
+    .inner-page-details{
+        margin-bottom: 20px;
+       
+        row-gap: 25px;
+
+    }
+
+    .inner-page-title {
+        margin-bottom: 20px;
+        font-size: 28px;
+    }
+ 
+
+   
+    .link{
+        text-align: center;
+        color: #000;
+        text-decoration: underline;
+    
+    }
+
+    .inner-page-img {
+       
+        margin-bottom: 20px;
+        
+
+    }
+
+    .inner-page-link {
+    
+        padding: 20px ;
+ 
+    }    
+    
+        
+
+    .inner-page-text{
+       
+        row-gap: 20px;
+        
+    }
+
+    
+}
